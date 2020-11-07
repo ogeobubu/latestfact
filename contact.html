@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Contact Us - Fact Services</title>
+  </head>
+  <body>
+    <header class="showcase">
+      <div class="container">
+        <nav>
+          <img style="width: 150px" src="./images/logo.png" alt="logo" />
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="showcase-content my-4">
+          <div>
+            <h1 class="my-3">Contact Us</h1>
+            <p class="my-1">
+              This webpage is a page where you get to know more about us as a
+              company.
+            </p>
+            <a href="contact.html" class="btn-primary">Contact Us</a>
+            <a href="about.html" class="btn-secondary">Read More</a>
+          </div>
+          <div class="p-3">
+            <img class="info" src="./images/contact-us.svg" alt="info" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact-section section_padding">
+      <div class="container">
+        <div class="d-none d-sm-block mb-5 pb-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31704.54051438086!2d3.3181143034990566!3d6.638531992772385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93e05fb88625%3A0x70ada06536230a50!2sOgba%20Bus%20Stop!5e0!3m2!1sen!2sng!4v1604737881140!5m2!1sen!2sng"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border: 0"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0"
+          ></iframe>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 class="contact-title">Contact Us Today</h2>
+          </div>
+          <div class="col-lg-8">
+            <form
+              class="form-contact contact_form"
+              validate
+              action="form.php"
+              id="contact-form"
+            >
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control w-100"
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="9"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter Message'"
+                      placeholder="Enter Message"
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="name"
+                      id="name"
+                      type="text"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter your full name'"
+                      placeholder="Enter your full name"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      type="email"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter email address'"
+                      placeholder="Enter email address"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="home"
+                      id="home"
+                      type="text"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter home address'"
+                      placeholder="Enter home address"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="kin"
+                      id="kin"
+                      type="text"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter next of kin'"
+                      placeholder="Enter next of kin"
+                    />
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="number"
+                      id="number"
+                      type="tel"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter phone number'"
+                      placeholder="Enter phone number"
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <input
+                      class="form-control"
+                      name="address"
+                      id="address"
+                      type="text"
+                      onfocus="this.placeholder = ''"
+                      onblur="this.placeholder = 'Enter residential address'"
+                      placeholder="Enter residential address"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <button type="submit" class="btn-primary">Send Message</button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-4">
+            <div class="media contact-info">
+              <span class="contact-info__icon"
+                ><i class="fa fa-home fa-3x"></i
+              ></span>
+              <div class="media-body">
+                <h3>Ogba Bus Stop, Lagos, Nigeria</h3>
+                <p>52 Ijaiye Ogba Road</p>
+              </div>
+            </div>
+            <div class="media contact-info">
+              <span class="contact-info__icon"
+                ><i class="fa fa-tablet fa-3x"></i
+              ></span>
+              <div class="media-body">
+                <h3>08136094777</h3>
+                <p>Mon to Fri 9am to 6pm</p>
+              </div>
+            </div>
+            <div class="media contact-info">
+              <span class="contact-info__icon"
+                ><i class="fa fa-envelope fa-2x"></i
+              ></span>
+              <div class="media-body">
+                <h3>factservices2018@gmail.com</h3>
+                <p>Apply for any of our packages today!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION ENDS -->
+
+    <!-- FOOTER -->
+
+    <section class="bg-dark footer" id="contact">
+      <div class="container">
+        <div class="row pt-5">
+          <div class="col-lg-4">
+            <h5 class="text-white footer-title">About Fact Services</h5>
+            <div class="mt-4">
+              <p class="footer-desc">
+                First business resource sourcing, standing as an intermediary to
+                help ease the stress of our clients and partners in getting all
+                they need financially, morally, socially, educationally.
+              </p>
+            </div>
+            <div class="mt-4">
+              <ul class="list-unstyled text-white footer-social list-inline">
+                <li class="list-inline-item">
+                  <a
+                    href="https://www.facebook.com/FACT-Services-2741853776040030/"
+                    target="_blank"
+                    ><i class="fa fa-facebook facebook"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fa fa-instagram instagram"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#"><i class="fa fa-twitter twitter"></i></a>
+                </li>
+                <li class="list-inline-item">
+                  <a target="_blank" href="https://wa.me/2348088408665"
+                    ><i class="fa fa-whatsapp whatsapp"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="text-white footer-title">Social links</h5>
+            <div class="mt-4">
+              <ul class="list-unstyled footer-list">
+                <li>
+                  <a
+                    href="https://www.facebook.com/FACT-Services-2741853776040030/"
+                    target="_blank"
+                    >Facebook</a
+                  >
+                </li>
+                <li><a href="#">Twitter</a></li>
+                <li>
+                  <a target="_blank" href="https://wa.me/2348088408665"
+                    >WhatsApp</a
+                  >
+                </li>
+                <li><a href="#">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h5 class="text-white footer-title">Contact Us</h5>
+            <div class="mt-4">
+              <p>Address: Head office: 52 Ijaiye Ogba Road, Ogba Bus Stop.</p>
+              <p>Branch: 02 Saka Alade Street, Ayawoele, Alagbole.</p>
+              <p>Phone: 08136094777</p>
+              <p>Gmail: factservices2018</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-border"></div>
+        <div class="row pb-4">
+          <div class="col-lg-12">
+            <div class="float-right pull-none">
+              <p class="mb-0">
+                © Fact Services
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                .
+              </p>
+            </div>
+            <div class="float-left pull-none">
+              <p class="footer-terms">
+                <a href="#">Terms</a> & <a href="#">Privacy Policy </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER ENDS -->
+  </body>
+</html>
